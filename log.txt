@@ -1,0 +1,5 @@
+Thu, 21 Dec 2017 22:33:30 weather_service.py[line:317] DEBUG load configure
+Thu, 21 Dec 2017 22:33:30 weather_service.py[line:462] WARNING {'wd': u'\u65e0\u6301\u7ee7\u98ce\u5411\u98ce', 'hight_temp': u'17', 'hum': u'38%', 'sun_set': u'17:24', 'datetime': u'22:30', 'weather': u'\u6674', 'ws': u'3-4\u7ea7 5.5~7.9m/s', 'low_temp': u'10', 'sun_rise': u'06:47', 'aqi': u'64', 'tomorrow': {'pcpn': u'1%', 'weather': u'\u6674', 'ws': u'3-4\u7ea7 5.5~7.9m/s', 'low_temp': u'10', 'hight_temp': u'20', 'wd': u'\u4e1c\u5317\u98ce', 'sun_rise': u'06:47', 'sun_set': u'17:25'}, 'city': u'\u53a6\u95e8', 'temp': u'11', 'suggestion': u'\u5efa\u8bae\u7a7f\u8584\u5916\u5957\u6216\u725b\u4ed4\u88e4\u7b49\u670d\u88c5', 'air_desc': u'\u826f\u597d', 'pm25': '35'}
+Thu, 21 Dec 2017 22:33:30 weather_service.py[line:320] DEBUG load weather
+Thu, 21 Dec 2017 22:33:30 weather_service.py[line:93] INFO refresh screen
+Thu, 21 Dec 2017 22:33:31 weather_service.py[line:148] INFO now time -> 22:33
