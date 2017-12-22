@@ -1,6 +1,6 @@
 #!/bin/bash
 #利用echo输出一些提示语句
-echo export pin $1 $2
+echo export pin $1 value $2
 echo $1 > /sys/class/gpio/export
 
 echo setting direction to output
