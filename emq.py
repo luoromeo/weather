@@ -27,7 +27,7 @@ def gpio_destroy():
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
     # 连接完成之后订阅gpio主题
-    client.subscribe("gpio")
+    client.subscribe("luoromeo-rpi-gpio")
 
 
 # 消息推送回调函数
@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     try:
         # 请根据实际情况改变MQTT代理服务器的IP地址
-        client.connect("192.168.1.110", 1883, 60)
+        client.connect("120.77.171.20", 1883, 60)
         client.loop_forever()
     except KeyboardInterrupt:
         client.disconnect()
