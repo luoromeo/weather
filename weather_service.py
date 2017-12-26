@@ -499,4 +499,3 @@ class WeatherService(threading.Thread):
 
 service = WeatherService()
 service.start()
-print("helloworld")
